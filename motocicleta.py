@@ -1,4 +1,4 @@
-from Subclass.Bicicleta import Bicicleta
+from Bicicleta import Bicicleta
 
 class Motocicleta(Bicicleta):
     def __init__(self, color, ruedas, velocidad, cilindrada, tipo, marca, modelo):
